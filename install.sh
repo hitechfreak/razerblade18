@@ -1,5 +1,5 @@
 cp ./hda-verb /usr/local/bin
-cp ./enable-speakers.sh /usr/local/bin
-cp ./enable-speakers.service /etc/systemd/system/
-systemctl enable enable-speakers.service
-systemctl start enable-speakers.service
+cp ./sound.sh /usr/local/bin
+cp ./sound.service /etc/systemd/system/
+systemctl enable sound.service
+systemctl start sound.service
